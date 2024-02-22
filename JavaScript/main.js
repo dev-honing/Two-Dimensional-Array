@@ -11,3 +11,8 @@ const twoDimArray = [
 function printRow(rowArray) {
   console.log(rowArray);
 }
+
+// 콘솔 출력 함수 호출
+printRow(twoDimArray[0]); // [1, 2, 3]
+printRow(twoDimArray[1]); // [4, 5, 6]
+printRow(twoDimArray[2]); // [7, 8, 9]
